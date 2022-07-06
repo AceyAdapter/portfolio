@@ -26,6 +26,8 @@ const _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <div class="${"divider m-2"}"></div>
         <li><a href="${"/resume"}">Resume</a></li>  
         <div class="${"divider m-2"}"></div>
-        <li><a href="${"/contact"}">Contact</a></li></div></ul></div></div>`;
+        <li><a href="${"/contact"}">Contact</a></li>
+        <div class="${"divider m-2"}"></div>
+        <li><a href="${"/vault"}">Vault</a></li></div></ul></div></div>`;
 });
 export { _layout as default };

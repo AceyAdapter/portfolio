@@ -46,7 +46,9 @@
         <div class="divider m-2"></div>
         <li><a on:click={() => {document.getElementById('my-drawer-3').click()}} href="/resume">Resume</a></li>  
         <div class="divider m-2"></div>
-        <li><a on:click={() => {document.getElementById('my-drawer-3').click()}} href="/contact">Contact</a></li>    
+        <li><a on:click={() => {document.getElementById('my-drawer-3').click()}} href="/contact">Contact</a></li>
+        <div class="divider m-2"></div>
+        <li><a on:click={() => {document.getElementById('my-drawer-3').click()}} href="/vault">Vault</a></li>      
       </div>
     </ul>
     
