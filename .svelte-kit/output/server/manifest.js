@@ -1,9 +1,9 @@
 export const manifest = {
 	appDir: "_app",
-	assets: new Set([".nojekyll","CNAME","Nicholas_Kreitz_resume.pdf","favicon.png","img/blackjack_1.png","img/blackjack_2.png","img/closeup.png","img/crazy-crypto.png","img/daisyui.jpeg","img/egoh-site.png","img/fridge_1.png","img/fridge_2.png","img/nick-color.jpeg","img/nmi-logo.jpeg","img/sveltekit.png"]),
+	assets: new Set([".nojekyll","CNAME","Nicholas_Kreitz_resume.pdf","favicon.png","img/blackjack_1.png","img/blackjack_2.png","img/closeup.png","img/crazy-crypto.png","img/daisyui.jpeg","img/egoh-site.png","img/fridge_1.png","img/fridge_2.png","img/nick-color.jpeg","img/nmi-logo.jpeg","img/sveltekit.png","img/vault.png"]),
 	mimeTypes: {".pdf":"application/pdf",".png":"image/png",".jpeg":"image/jpeg"},
 	_: {
-		entry: {"file":"start-4f152cbb.js","js":["start-4f152cbb.js","chunks/index-faf28bcd.js","chunks/preload-helper-e4860ae8.js"],"css":[]},
+		entry: {"file":"start-b9707fc5.js","js":["start-b9707fc5.js","chunks/index-9a557553.js","chunks/preload-helper-e4860ae8.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
@@ -11,7 +11,8 @@ export const manifest = {
 			() => import('./nodes/2.js'),
 			() => import('./nodes/4.js'),
 			() => import('./nodes/5.js'),
-			() => import('./nodes/6.js')
+			() => import('./nodes/6.js'),
+			() => import('./nodes/7.js')
 		],
 		routes: [
 			{
@@ -67,6 +68,17 @@ export const manifest = {
 				path: "/resume",
 				shadow: null,
 				a: [0,6],
+				b: [1]
+			},
+			{
+				type: 'page',
+				id: "vault",
+				pattern: /^\/vault\/?$/,
+				names: [],
+				types: [],
+				path: "/vault",
+				shadow: null,
+				a: [0,7],
 				b: [1]
 			}
 		],

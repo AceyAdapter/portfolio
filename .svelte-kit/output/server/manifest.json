@@ -18,7 +18,7 @@
       "_index-2835083a.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-23105516.css"
+      "assets/entries/pages/__layout.svelte-507b2533.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -84,6 +84,17 @@
     ],
     "assets": [
       "assets/Nicholas_Kreitz_resume-482b94d6.pdf"
+    ]
+  },
+  "src/routes/vault.svelte": {
+    "file": "entries/pages/vault.svelte.js",
+    "src": "src/routes/vault.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-2835083a.js"
+    ],
+    "assets": [
+      "assets/vault-d1ae0534.png"
     ]
   },
   "_index-2835083a.js": {
