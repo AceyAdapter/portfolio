@@ -5,6 +5,9 @@ module.exports = {
       width: {
         '76': '19rem',
         '128': '32rem'
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
       }
     },
   },

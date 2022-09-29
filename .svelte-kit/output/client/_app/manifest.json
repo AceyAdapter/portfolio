@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-16943c32.js",
+    "file": "start-861943a9.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-9a557553.js",
+      "_index-1413ac12.js",
       "_preload-helper-e4860ae8.js"
     ],
     "dynamicImports": [
@@ -19,56 +19,60 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-d94581f3.js",
+    "file": "pages/__layout.svelte-d5fb0b9f.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-46e153bf.css"
+      "assets/pages/__layout.svelte-921ba8ae.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-3e78211c.js",
+    "file": "error.svelte-98a822a8.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-c4ab1e28.js",
+    "file": "pages/contact.svelte-47e998af.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js",
-      "_wave-9ee2c6d3.js"
+      "_index-1413ac12.js"
+    ],
+    "css": [
+      "assets/pages/contact.svelte-7ffc33b2.css"
     ],
     "assets": [
       "assets/closeup-c9838a68.png"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-9405fd4e.js",
+    "file": "pages/index.svelte-f00efc88.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js",
-      "_wave-9ee2c6d3.js"
+      "_index-1413ac12.js"
+    ],
+    "assets": [
+      "assets/nick-cutout-04787eeb.png"
     ]
   },
   "src/routes/nmi.svelte": {
-    "file": "pages/nmi.svelte-7e3a7a5d.js",
+    "file": "pages/nmi.svelte-89a64269.js",
     "src": "src/routes/nmi.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -81,22 +85,22 @@
     ]
   },
   "src/routes/projects.svelte": {
-    "file": "pages/projects.svelte-e0019a41.js",
+    "file": "pages/projects.svelte-19168d51.js",
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ]
   },
   "src/routes/resume.svelte": {
-    "file": "pages/resume.svelte-c3d19ecf.js",
+    "file": "pages/resume.svelte-7b91e713.js",
     "src": "src/routes/resume.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_preload-helper-e4860ae8.js",
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ],
     "dynamicImports": [
       "node_modules/svelte-pdf/src/index.js"
@@ -106,38 +110,29 @@
     ]
   },
   "src/routes/vault.svelte": {
-    "file": "pages/vault.svelte-c06eead0.js",
+    "file": "pages/vault.svelte-5960d2a7.js",
     "src": "src/routes/vault.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ],
     "assets": [
       "assets/vault-d1ae0534.png"
     ]
   },
-  "_index-9a557553.js": {
-    "file": "chunks/index-9a557553.js"
+  "_index-1413ac12.js": {
+    "file": "chunks/index-1413ac12.js"
   },
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_wave-9ee2c6d3.js": {
-    "file": "chunks/wave-9ee2c6d3.js",
-    "imports": [
-      "_index-9a557553.js"
-    ],
-    "css": [
-      "assets/wave-cf8912cf.css"
-    ]
-  },
   "node_modules/svelte-pdf/src/index.js": {
-    "file": "chunks/index-93a49cad.js",
+    "file": "chunks/index-cfc56595.js",
     "src": "node_modules/svelte-pdf/src/index.js",
     "isDynamicEntry": true,
     "imports": [
-      "_index-9a557553.js"
+      "_index-1413ac12.js"
     ],
     "css": [
       "assets/index-5da05873.css"
