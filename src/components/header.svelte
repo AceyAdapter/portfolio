@@ -1,9 +1,14 @@
 <script>
   import Instagram from './icons/instagram.svelte'
   import Mail from './icons/mail.svelte'
+
+  export let initTransparent = false
+
+  let y = 0
 </script>
 
-<div class="flex flex-row justify-between pt-6 px-10">
+<div
+  class="sticky top-0 flex flex-row justify-between py-6 px-10 bg-base-100 z-50 {initTransparent || y > 70 ? 'border-b-2 border-primary' : ''}">
   <div class="flex flex-row items-center">
     <a href="https://kreitzn.dev">
       <div class="text-primary font-poppins font-bold text-2xl">
@@ -28,3 +33,5 @@
     </a>
   </div>
 </div>
+
+<svelte:window bind:scrollY={y} />

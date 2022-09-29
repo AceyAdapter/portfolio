@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component, a as add_attribute } from "../../chunks/index-2835083a.js";
-import { H as Header } from "../../chunks/header-85dee47d.js";
+import { H as Header } from "../../chunks/header-0f3f799a.js";
 var blackjack_1 = "/_app/assets/blackjack_1-0943b4a5.png";
 var blackjack_2 = "/_app/assets/blackjack_2-ceffb53e.png";
 var fridge_1 = "/_app/assets/fridge_1-f248dd56.png";
@@ -8,7 +8,7 @@ var crazy_crypto = "/_app/assets/crazy-crypto-d0eaac53.png";
 var egoh_site = "/_app/assets/egoh-site-e667f64f.png";
 var nmi_logo = "/_app/assets/nmi-logo-4001a5fd.jpeg";
 const Nmi = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="${"mb-10"}">${validate_component(Header, "Header").$$render($$result, {}, {}, {})}</div>
+  return `${validate_component(Header, "Header").$$render($$result, { initTransparent: true }, {}, {})}
 <div class="${"flex flex-col justify-center w-full"}"><div class="${"hero min-h-screen"}"><div class="${"hero-content lg:flex-row-reverse flex-col-reverse"}"><div class="${"flex-col"}"><div class="${"mockup-phone border-primary w-76 z-40"}"><div class="${"display"}"><div class="${"artboard artboard-demo phone-1 z-30"}"><div class="${"carousel z-20"}"><div id="${"rich1"}" class="${"carousel-item w-full z-20"}"><img${add_attribute("src", blackjack_1, 0)} alt="${"blackjack 1"}" class="${"mr-8 rounded"}"></div>
                 <div id="${"rich2"}" class="${"carousel-item w-full z-20"}"><img${add_attribute("src", blackjack_2, 0)} alt="${"blackjack 2"}" class="${"mr-8 rounded"}"></div>
                 <div id="${"rich3"}" class="${"carousel-item w-full z-20"}"><img${add_attribute("src", fridge_2, 0)} alt="${"fridge 1"}" class="${"mr-8 rounded"}"></div>

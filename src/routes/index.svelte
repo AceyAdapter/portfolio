@@ -1,6 +1,7 @@
 <script>
   import Header from '../components/header.svelte'
   import nick_cutout from '../../static/img/nick-cutout.png'
+  import stats_card from '../../static/img/stats-card.png'
   import GreenTriangle from '../components/icons/green_triangle.svelte'
   import WhiteTriangle from '../components/icons/white_triangle.svelte'
   import Section from '../components/section.svelte'
@@ -8,32 +9,51 @@
 </script>
 
 <div>
-  <Section>
-    <Header />
-    <div class="absolute right-0 bottom-0">
-      <GreenTriangle style={'w-[1000px] fill-primary'} />
-    </div>
-    <div
-      class="absolute top-1/2 left-1/2 transform -translate-x-1/2
-      -translate-y-1/2">
-      <Developer style={'w-[1400px]'} />
-    </div>
-    <div class="absolute right-32 bottom-0">
-      <img src={nick_cutout} class="w-96" alt="" />
-    </div>
-    <div class="absolute bottom-28">
-      <div
-        class="ml-10 flex flex-col text-primary font-poppins font-bold text-5xl">
-        <div class="mb-1">Hello!</div>
-        <div class="mb-2">I'm Nick</div>
-        <div class="btn btn-primary w-36">Work with me</div>
+  <Header />
+  <div class="mb-[-84px]">
+    <Section>
+      <div class="absolute right-0 bottom-0">
+        <GreenTriangle style={'w-[1000px] fill-primary'} />
       </div>
-    </div>
-  </Section>
+      <div
+        class="absolute top-1/2 left-1/2 transform -translate-x-1/2
+        -translate-y-1/2">
+        <Developer style={'w-[1400px]'} />
+      </div>
+      <div class="absolute right-32 bottom-0">
+        <img src={nick_cutout} class="w-96" alt="" />
+      </div>
+      <div class="absolute bottom-28">
+        <div
+          class="ml-20 flex flex-col text-primary font-poppins font-bold
+          text-5xl">
+          <div class="mb-1">Hello!</div>
+          <div class="mb-2">I'm Nick</div>
+          <a href="#" class="btn btn-primary w-36">Work with me</a>
+        </div>
+      </div>
+    </Section>
+  </div>
   <Section style={'w-screen h-screen bg-primary'}>
     <div class="relative">
-      <div class="absolute right-0 top-0">
+      <div class="z-10 absolute right-0 top-0 flex flex-col justify-center">
         <WhiteTriangle style={'w-[1000px] fill-primary'} />
+        <div class="z-20 ml-[325px] mt-[-450px]">
+          <img src={stats_card} class="w-[350px]" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row justify-between">
+      <div class="flex flex-col justify-start w-full pl-20 pt-72">
+        <div class="w-1/3 text-base-100 text-6xl font-poppins font-bold">
+          student, programmer, advocate for innovation
+        </div>
+        <a
+          href="/nmi"
+          class="mt-5 rounded-2xl text-lg h-10 w-48 bg-base-100 text-primary
+          font-bold font-poppins flex justify-center items-center">
+          View My Work
+        </a>
       </div>
     </div>
   </Section>

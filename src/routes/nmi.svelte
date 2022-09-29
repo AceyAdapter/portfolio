@@ -9,9 +9,7 @@
   import Header from '../components/header.svelte'
 </script>
 
-<div class="mb-10">
-  <Header />
-</div>
+<Header initTransparent={true} />
 <div class="flex flex-col justify-center w-full">
   <div class="hero min-h-screen">
     <div class="hero-content lg:flex-row-reverse flex-col-reverse">
