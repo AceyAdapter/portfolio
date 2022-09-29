@@ -18,7 +18,7 @@
       "_index-2835083a.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-5d3380f6.css"
+      "assets/entries/pages/__layout.svelte-ac0a9964.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -48,7 +48,8 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-2835083a.js",
+      "_header-85dee47d.js"
     ],
     "assets": [
       "assets/nick-cutout-04787eeb.png"
@@ -59,7 +60,8 @@
     "src": "src/routes/nmi.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-2835083a.js",
+      "_header-85dee47d.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -103,6 +105,12 @@
   },
   "_index-2835083a.js": {
     "file": "chunks/index-2835083a.js"
+  },
+  "_header-85dee47d.js": {
+    "file": "chunks/header-85dee47d.js",
+    "imports": [
+      "_index-2835083a.js"
+    ]
   },
   ".svelte-kit/build/hooks.js": {
     "file": "chunks/hooks-1c45ba0b.js",
