@@ -18,7 +18,7 @@
       "_index-2835083a.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-2712d12d.css"
+      "assets/entries/pages/__layout.svelte-81094827.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -49,7 +49,7 @@
     "isEntry": true,
     "imports": [
       "_index-2835083a.js",
-      "_header-0f3f799a.js"
+      "_header-05ed4e9f.js"
     ],
     "assets": [
       "assets/nick-cutout-04787eeb.png",
@@ -62,7 +62,7 @@
     "isEntry": true,
     "imports": [
       "_index-2835083a.js",
-      "_header-0f3f799a.js"
+      "_header-05ed4e9f.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -107,8 +107,8 @@
   "_index-2835083a.js": {
     "file": "chunks/index-2835083a.js"
   },
-  "_header-0f3f799a.js": {
-    "file": "chunks/header-0f3f799a.js",
+  "_header-05ed4e9f.js": {
+    "file": "chunks/header-05ed4e9f.js",
     "imports": [
       "_index-2835083a.js"
     ]

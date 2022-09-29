@@ -15,9 +15,13 @@
         Kreitzn.dev
       </div>
     </a>
-    <div class="text-primary font-poppins font-medium text-xl mx-2">|</div>
+    <div
+      class="hidden lg:block text-primary font-poppins font-medium text-xl mx-2">
+      |
+    </div>
     <a href="/nmi">
-      <div class="text-primary font-poppins font-medium text-xl">
+      <div
+        class="hidden lg:block text-primary font-poppins font-medium text-xl">
         NMI Portfolio
       </div>
     </a>

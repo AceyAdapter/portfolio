@@ -17,13 +17,13 @@
       </div>
       <div
         class="absolute top-1/2 left-1/2 transform -translate-x-1/2
-        -translate-y-1/2">
+        -translate-y-1/2 hidden lg:block">
         <Developer style={'w-[1400px]'} />
       </div>
-      <div class="absolute right-32 bottom-0">
-        <img src={nick_cutout} class="w-96" alt="" />
+      <div class="absolute lg:right-32 right-10 bottom-0">
+        <img src={nick_cutout} class="lg:w-96 w-60" alt="" />
       </div>
-      <div class="absolute bottom-28">
+      <div class="absolute lg:bottom-28">
         <div
           class="ml-20 flex flex-col text-primary font-poppins font-bold
           text-5xl">
@@ -35,17 +35,20 @@
     </Section>
   </div>
   <Section style={'w-screen h-screen bg-primary'}>
-    <div class="relative">
+    <div class="z-10 relative">
       <div class="z-10 absolute right-0 top-0 flex flex-col justify-center">
         <WhiteTriangle style={'w-[1000px] fill-primary'} />
-        <div class="z-20 ml-[325px] mt-[-450px]">
+        <div class="z-20 hidden lg:block ml-[325px] mt-[-450px]">
           <img src={stats_card} class="w-[350px]" alt="" />
         </div>
       </div>
     </div>
+    <div class="z-30 lg:hidden">
+      <img src={stats_card} class="w-[350px]" alt="" />
+    </div>
     <div class="flex flex-row justify-between">
-      <div class="flex flex-col justify-start w-full pl-20 pt-72">
-        <div class="w-1/3 text-base-100 text-6xl font-poppins font-bold">
+      <div class="flex flex-col justify-start w-full lg:pl-20 pt-72">
+        <div class="w-1/3 text-base-100 lg:text-6xl font-poppins font-bold">
           student, programmer, advocate for innovation
         </div>
         <a

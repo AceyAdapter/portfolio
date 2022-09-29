@@ -2,7 +2,7 @@
   export let style = 'w-3'
 </script>
 
-<div class="">
+<div class="z-10">
   <svg
     class={style}
     viewBox="0 0 1218 838"
