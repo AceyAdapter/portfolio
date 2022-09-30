@@ -8,8 +8,61 @@
   import Developer from '../components/icons/developer.svelte'
 </script>
 
+<style>
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .bounce {
+    animation: bounce 2s infinite;
+  }
+</style>
+
 <div>
   <Header />
+  <div class="z-40 absolute bottom-4 left-1/2 transform -translate-x-1/2">
+    <div class="flex flex-row items-center justify-center">
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="bounce w-4 fill-white"
+          viewBox="0 0 384 512">
+          <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5
+            12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224
+            64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6
+            265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+        </svg>
+      </div>
+      <div class="text-xl text-white font-semibold bounce mx-2">Learn More</div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="bounce w-4 fill-white"
+          viewBox="0 0 384 512">
+          <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5
+            12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224
+            64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6
+            265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+        </svg>
+      </div>
+    </div>
+  </div>
   <div class="mb-[-86px]">
     <Section>
       <div class="absolute right-0 bottom-0">
@@ -28,8 +81,7 @@
         <div
           class="lg:ml-20 flex-col text-primary font-poppins font-bold text-5xl">
           <div class="mb-1">Hello!</div>
-          <div class="mb-2">I'm Nick</div>
-          <a href="#" class="btn btn-primary w-36">Work with me</a>
+          <div class="mb-10">I'm Nick.</div>
         </div>
       </div>
     </Section>
@@ -47,14 +99,16 @@
           </div>
           <a
             href="/nmi"
-            class="border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-48
-            bg-base-100 text-primary font-bold font-poppins flex justify-center
-            items-center">
+            class="border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40
+            lg:w-48 bg-base-100 text-primary font-bold font-poppins flex
+            justify-center items-center">
             View My Work
           </a>
         </div>
         <div class="z-10 relative">
-          <div class="z-10 absolute right-0 top-0 flex flex-col justify-center">
+          <div
+            class="z-10 absolute right-0 top-0 lg:flex lg:flex-col
+            lg:justify-center">
             <WhiteTriangle style={'w-[1000px] fill-primary'} />
             <div class="z-20 hidden lg:block ml-[325px] mt-[-450px]">
               <img src={stats_card} class="w-[350px]" alt="" />
@@ -67,4 +121,5 @@
       </div>
     </div>
   </Section>
+  <Section style={'w-screen h-screen bg-primary'} />
 </div>

@@ -18,7 +18,7 @@
       "_index-2835083a.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-7aa7d659.css"
+      "assets/entries/pages/__layout.svelte-4552282a.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -50,6 +50,9 @@
     "imports": [
       "_index-2835083a.js",
       "_header-7ea0180d.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-3a6ba68d.css"
     ],
     "assets": [
       "assets/nick-cutout-04787eeb.png",
