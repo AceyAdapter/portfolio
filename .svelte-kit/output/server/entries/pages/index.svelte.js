@@ -1,5 +1,5 @@
-import { c as create_ssr_component, a as add_attribute, v as validate_component } from "../../chunks/index-2835083a.js";
-import { H as Header } from "../../chunks/header-7ea0180d.js";
+import { c as create_ssr_component, a as add_attribute, v as validate_component } from "../../chunks/index-c5e2452c.js";
+import { H as Header } from "../../chunks/header-fe2cf935.js";
 var nick_cutout = "/_app/assets/nick-cutout-04787eeb.png";
 var stats_card = "/_app/assets/stats-card-dce19c10.png";
 const Green_triangle = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -31,14 +31,14 @@ const Developer = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 });
 var cta_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "@-webkit-keyframes svelte-unzd4d-bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}@keyframes svelte-unzd4d-bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}.bounce.svelte-unzd4d{-webkit-animation:svelte-unzd4d-bounce 2s infinite;animation:svelte-unzd4d-bounce 2s infinite}",
+  code: "@-webkit-keyframes svelte-wi2t7f-bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}@keyframes svelte-wi2t7f-bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}.bounce.svelte-wi2t7f{-webkit-animation:svelte-wi2t7f-bounce 3s infinite;animation:svelte-wi2t7f-bounce 3s infinite}",
   map: null
 };
 const Cta = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="${"z-40 absolute bottom-4 left-1/2 transform -translate-x-1/2"}"><div class="${"flex flex-row items-center justify-center"}"><div><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"bounce w-4 fill-white svelte-unzd4d"}" viewBox="${"0 0 384 512"}"><path d="${"M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8\n          0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32\n          14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0\n          45.3l160 160z"}"></path></svg></div>
-    <div class="${"text-xl text-white font-semibold bounce mx-2 svelte-unzd4d"}">Learn More</div>
-    <div><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"bounce w-4 fill-white svelte-unzd4d"}" viewBox="${"0 0 384 512"}"><path d="${"M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8\n          0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32\n          14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0\n          45.3l160 160z"}"></path></svg></div></div></div>`;
+  return `<div class="${"z-40 absolute bottom-4 left-1/2 transform -translate-x-1/2"}"><div class="${"flex flex-row items-center justify-center"}"><div><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"bounce w-4 fill-white svelte-wi2t7f"}" viewBox="${"0 0 384 512"}"><path d="${"M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8\n          0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32\n          14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0\n          45.3l160 160z"}"></path></svg></div>
+    <div class="${"text-xl text-white font-semibold bounce mx-2 svelte-wi2t7f"}">Learn More</div>
+    <div><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"bounce w-4 fill-white svelte-wi2t7f"}" viewBox="${"0 0 384 512"}"><path d="${"M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8\n          0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32\n          14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0\n          45.3l160 160z"}"></path></svg></div></div></div>`;
 });
 const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div>${validate_component(Header, "Header").$$render($$result, {}, {}, {})}

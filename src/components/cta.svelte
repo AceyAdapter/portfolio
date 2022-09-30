@@ -16,7 +16,7 @@
   }
 
   .bounce {
-    animation: bounce 2s infinite;
+    animation: bounce 3s infinite;
   }
 </style>
 

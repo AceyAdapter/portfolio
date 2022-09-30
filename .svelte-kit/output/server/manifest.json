@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ],
     "dynamicImports": [
       ".svelte-kit/build/hooks.js"
@@ -15,7 +15,7 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ],
     "css": [
       "assets/entries/pages/__layout.svelte-777940e4.css"
@@ -26,7 +26,7 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ]
   },
   "src/routes/contact.svelte": {
@@ -34,7 +34,7 @@
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ],
     "css": [
       "assets/entries/pages/contact.svelte-4f5e7c3f.css"
@@ -48,11 +48,11 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js",
-      "_header-7ea0180d.js"
+      "_index-c5e2452c.js",
+      "_header-fe2cf935.js"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-3a6ba68d.css"
+      "assets/entries/pages/index.svelte-847ba851.css"
     ],
     "assets": [
       "assets/nick-cutout-04787eeb.png",
@@ -64,8 +64,8 @@
     "src": "src/routes/nmi.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js",
-      "_header-7ea0180d.js"
+      "_index-c5e2452c.js",
+      "_header-fe2cf935.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -82,7 +82,7 @@
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ]
   },
   "src/routes/resume.svelte": {
@@ -90,7 +90,7 @@
     "src": "src/routes/resume.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ],
     "assets": [
       "assets/Nicholas_Kreitz_resume-482b94d6.pdf"
@@ -101,19 +101,22 @@
     "src": "src/routes/vault.svelte",
     "isEntry": true,
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
     ],
     "assets": [
       "assets/vault-d1ae0534.png"
     ]
   },
-  "_index-2835083a.js": {
-    "file": "chunks/index-2835083a.js"
+  "_index-c5e2452c.js": {
+    "file": "chunks/index-c5e2452c.js"
   },
-  "_header-7ea0180d.js": {
-    "file": "chunks/header-7ea0180d.js",
+  "_header-fe2cf935.js": {
+    "file": "chunks/header-fe2cf935.js",
     "imports": [
-      "_index-2835083a.js"
+      "_index-c5e2452c.js"
+    ],
+    "css": [
+      "assets/header-47aeb1ca.css"
     ]
   },
   ".svelte-kit/build/hooks.js": {

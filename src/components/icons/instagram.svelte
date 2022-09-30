@@ -2,9 +2,26 @@
   export let style = 'w-3'
 </script>
 
+<style>
+  @keyframes delayed_spin {
+    0%,
+    20%,
+    70% {
+      transform: rotate(0deg);
+    }
+    90% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spin-delay {
+    animation: delayed_spin 15s infinite;
+  }
+</style>
+
 <div
-  class="hover:animate-spin ml-2 p-2 rounded-3xl bg-primary flex justify-center
-  items-center">
+  class="hover:animate-spin spin-delay ml-2 p-2 rounded-3xl bg-primary flex
+  justify-center items-center">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class={style}>
     <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
     <path
