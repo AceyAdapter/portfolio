@@ -21,7 +21,8 @@
     </div>
     <a href="/nmi">
       <div
-        class="hidden lg:block text-primary font-poppins font-medium text-xl">
+        class="hover:underline hidden lg:block text-primary font-poppins
+        font-medium text-xl">
         NMI Portfolio
       </div>
     </a>
