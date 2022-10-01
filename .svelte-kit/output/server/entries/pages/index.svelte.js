@@ -1,5 +1,6 @@
 import { c as create_ssr_component, a as add_attribute, v as validate_component } from "../../chunks/index-c5e2452c.js";
-import { H as Header } from "../../chunks/header-fe2cf935.js";
+import { H as Header } from "../../chunks/header-a4f1db59.js";
+import { S as Section } from "../../chunks/section-07467b4e.js";
 var nick_cutout = "/_app/assets/nick-cutout-04787eeb.png";
 var stats_card = "/_app/assets/stats-card-dce19c10.png";
 const Green_triangle = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -13,15 +14,6 @@ const White_triangle = create_ssr_component(($$result, $$props, $$bindings, slot
   if ($$props.style === void 0 && $$bindings.style && style !== void 0)
     $$bindings.style(style);
   return `<div class="${"z-10"}"><svg${add_attribute("class", style, 0)} viewBox="${"0 0 1218 838"}" fill="${"none"}" xmlns="${"http://www.w3.org/2000/svg"}"><path d="${"M611 840L1221.55 0H0.452087L611 840Z"}" fill="${"#D6D4DF"}"></path></svg></div>`;
-});
-const Section = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let { style = "w-screen h-screen" } = $$props;
-  let { id = "#" } = $$props;
-  if ($$props.style === void 0 && $$bindings.style && style !== void 0)
-    $$bindings.style(style);
-  if ($$props.id === void 0 && $$bindings.id && id !== void 0)
-    $$bindings.id(id);
-  return `<div${add_attribute("class", style, 0)}${add_attribute("id", id, 0)}>${slots.default ? slots.default({}) : ``}</div>`;
 });
 const Developer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { style = "w-4" } = $$props;
@@ -48,7 +40,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `<div class="${"absolute right-0 bottom-0"}">${validate_component(Green_triangle, "GreenTriangle").$$render($$result, { style: "w-[1000px] fill-primary" }, {}, {})}</div>
       <div class="${"absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block"}">${validate_component(Developer, "Developer").$$render($$result, { style: "w-[1400px]" }, {}, {})}</div>
       <div class="${"absolute lg:right-32 right-10 bottom-0"}"><img${add_attribute("src", nick_cutout, 0)} class="${"lg:w-96 w-60"}" alt="${""}"></div>
-      <div class="${"text-center pt-10 lg:pt-0 lg:text-left lg:absolute lg:bottom-28"}"><div class="${"lg:ml-20 flex-col text-primary font-poppins font-bold text-5xl"}"><div class="${"mb-1"}">Hello!</div>
+      <div class="${"text-center pt-10 lg:pt-0 lg:text-left lg:absolute lg:bottom-28"}"><div class="${"lg:ml-20 flex-col text-primary font-poppins font-bold xl:text-6xl text-5xl"}"><div class="${"mb-1"}">Hello!</div>
           <div class="${"mb-10"}">I&#39;m Nick.</div></div></div>`;
     }
   })}</div>
@@ -58,13 +50,20 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     default: () => {
       return `<div class="${"flex flex-col"}"><div class="${"flex flex-row justify-between"}"><div class="${"z-20 flex flex-col justify-start w-full lg:pl-20 lg:pt-72 pt-5 pl-5"}"><div class="${"lg:w-1/3 w-2/3 text-primary lg:text-base-100 text-4xl lg:text-6xl font-poppins font-bold"}">student, programmer, advocate for innovation
           </div>
-          <a href="${"/nmi"}" class="${"border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40 lg:w-48 bg-base-100 text-primary font-bold font-poppins flex justify-center items-center"}">View My Work
+          <a href="${"/nmi"}" class="${"border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40 lg:w-48 bg-base-100 text-primary font-bold font-poppins flex justify-center items-center hover:bg-base-200"}">View My Work
           </a></div>
         <div class="${"z-10 relative"}"><div class="${"z-10 absolute right-0 top-0 lg:flex lg:flex-col lg:justify-center"}">${validate_component(White_triangle, "WhiteTriangle").$$render($$result, { style: "w-[1000px] fill-primary" }, {}, {})}
             <div class="${"z-20 hidden lg:block ml-[325px] mt-[-450px]"}"><img${add_attribute("src", stats_card, 0)} class="${"w-[350px]"}" alt="${""}"></div></div></div></div>
       <div class="${"flex flex-row w-full justify-center mt-24 z-20 lg:hidden"}"><img${add_attribute("src", stats_card, 0)} class="${"w-[350px]"}" alt="${""}"></div></div>`;
     }
   })}
-  ${validate_component(Section, "Section").$$render($$result, { style: "w-screen h-screen bg-primary" }, {}, {})}</div>`;
+  ${validate_component(Section, "Section").$$render($$result, { style: "w-screen h-96 bg-base-100" }, {}, {
+    default: () => {
+      return `<div class="${"h-full w-full flex flex-col justify-center items-center"}"><div class="${"lg:text-3xl text-xl text-[#6b6a71] font-poppins font-bold"}">Have ideas? Need a partner?
+      </div>
+      <a href="${"/contact"}" class="${"mt-5 rounded-2xl text-lg h-10 w-48 lg:w-60 bg-primary text-base-100 font-bold font-poppins flex justify-center items-center"}">Let&#39;s Work Together
+      </a></div>`;
+    }
+  })}</div>`;
 });
 export { Routes as default };

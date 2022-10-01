@@ -18,7 +18,7 @@
       "_index-c5e2452c.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-777940e4.css"
+      "assets/entries/pages/__layout.svelte-ccc4b686.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -34,10 +34,12 @@
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "imports": [
-      "_index-c5e2452c.js"
+      "_index-c5e2452c.js",
+      "_header-a4f1db59.js",
+      "_section-07467b4e.js"
     ],
     "css": [
-      "assets/entries/pages/contact.svelte-4f5e7c3f.css"
+      "assets/entries/pages/contact.svelte-76c5e4bd.css"
     ],
     "assets": [
       "assets/closeup-c9838a68.png"
@@ -49,7 +51,8 @@
     "isEntry": true,
     "imports": [
       "_index-c5e2452c.js",
-      "_header-fe2cf935.js"
+      "_header-a4f1db59.js",
+      "_section-07467b4e.js"
     ],
     "css": [
       "assets/entries/pages/index.svelte-847ba851.css"
@@ -65,7 +68,7 @@
     "isEntry": true,
     "imports": [
       "_index-c5e2452c.js",
-      "_header-fe2cf935.js"
+      "_header-a4f1db59.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -110,13 +113,19 @@
   "_index-c5e2452c.js": {
     "file": "chunks/index-c5e2452c.js"
   },
-  "_header-fe2cf935.js": {
-    "file": "chunks/header-fe2cf935.js",
+  "_header-a4f1db59.js": {
+    "file": "chunks/header-a4f1db59.js",
     "imports": [
       "_index-c5e2452c.js"
     ],
     "css": [
       "assets/header-47aeb1ca.css"
+    ]
+  },
+  "_section-07467b4e.js": {
+    "file": "chunks/section-07467b4e.js",
+    "imports": [
+      "_index-c5e2452c.js"
     ]
   },
   ".svelte-kit/build/hooks.js": {

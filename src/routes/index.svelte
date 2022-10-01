@@ -28,7 +28,8 @@
       <div
         class="text-center pt-10 lg:pt-0 lg:text-left lg:absolute lg:bottom-28">
         <div
-          class="lg:ml-20 flex-col text-primary font-poppins font-bold text-5xl">
+          class="lg:ml-20 flex-col text-primary font-poppins font-bold
+          xl:text-6xl text-5xl">
           <div class="mb-1">Hello!</div>
           <div class="mb-10">I'm Nick.</div>
         </div>
@@ -50,7 +51,7 @@
             href="/nmi"
             class="border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40
             lg:w-48 bg-base-100 text-primary font-bold font-poppins flex
-            justify-center items-center">
+            justify-center items-center hover:bg-base-200">
             View My Work
           </a>
         </div>
@@ -70,5 +71,17 @@
       </div>
     </div>
   </Section>
-  <Section style={'w-screen h-screen bg-primary'} />
+  <Section style={'w-screen h-96 bg-base-100'}>
+    <div class="h-full w-full flex flex-col justify-center items-center">
+      <div class="lg:text-3xl text-xl text-[#6b6a71] font-poppins font-bold">
+        Have ideas? Need a partner?
+      </div>
+      <a
+        href="/contact"
+        class="mt-5 rounded-2xl text-lg h-10 w-48 lg:w-60 bg-primary
+        text-base-100 font-bold font-poppins flex justify-center items-center">
+        Let's Work Together
+      </a>
+    </div>
+  </Section>
 </div>

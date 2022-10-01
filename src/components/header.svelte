@@ -10,7 +10,7 @@
 <div
   class="sticky top-0 flex flex-row justify-between py-6 px-10 bg-base-100 z-50 {initTransparent || y > 70 ? 'border-b-2 border-primary' : ''}">
   <div class="flex flex-row items-center">
-    <a href="https://kreitzn.dev">
+    <a href="/">
       <div class="text-primary font-poppins font-bold text-2xl">
         Kreitzn.dev
       </div>

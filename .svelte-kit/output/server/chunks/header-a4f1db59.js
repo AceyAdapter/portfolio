@@ -22,7 +22,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let y = 0;
   if ($$props.initTransparent === void 0 && $$bindings.initTransparent && initTransparent !== void 0)
     $$bindings.initTransparent(initTransparent);
-  return `<div class="${"sticky top-0 flex flex-row justify-between py-6 px-10 bg-base-100 z-50 " + escape(initTransparent || y > 70 ? "border-b-2 border-primary" : "")}"><div class="${"flex flex-row items-center"}"><a href="${"https://kreitzn.dev"}"><div class="${"text-primary font-poppins font-bold text-2xl"}">Kreitzn.dev
+  return `<div class="${"sticky top-0 flex flex-row justify-between py-6 px-10 bg-base-100 z-50 " + escape(initTransparent || y > 70 ? "border-b-2 border-primary" : "")}"><div class="${"flex flex-row items-center"}"><a href="${"/"}"><div class="${"text-primary font-poppins font-bold text-2xl"}">Kreitzn.dev
       </div></a>
     <div class="${"hidden lg:block text-primary font-poppins font-medium text-xl mx-2"}">|
     </div>
