@@ -48,7 +48,7 @@
             student, programmer, advocate for innovation
           </div>
           <a
-            href="/nmi"
+            href="/nmc"
             class="border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40
             lg:w-48 bg-base-100 text-primary font-bold font-poppins flex
             justify-center items-center hover:bg-base-200">

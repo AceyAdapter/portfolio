@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component, a as add_attribute } from "../../chunks/index-c5e2452c.js";
-import { H as Header } from "../../chunks/header-a4f1db59.js";
+import { H as Header } from "../../chunks/header-a4c3a4ac.js";
 import { S as Section } from "../../chunks/section-07467b4e.js";
 var wave_svelte_svelte_type_style_lang = "";
 var nick_pic = "/_app/assets/closeup-c9838a68.png";

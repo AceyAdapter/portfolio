@@ -5,7 +5,7 @@ export const components = [
 	() => import("../runtime/components/error.svelte"),
 	() => import("../../src/routes/contact.svelte"),
 	() => import("../../src/routes/index.svelte"),
-	() => import("../../src/routes/nmi.svelte"),
+	() => import("../../src/routes/nmc.svelte"),
 	() => import("../../src/routes/projects.svelte"),
 	() => import("../../src/routes/resume.svelte"),
 	() => import("../../src/routes/vault.svelte")
@@ -14,7 +14,7 @@ export const components = [
 export const dictionary = {
 	"": [[0, 3], [1]],
 	"contact": [[0, 2], [1]],
-	"nmi": [[0, 4], [1]],
+	"nmc": [[0, 4], [1]],
 	"projects": [[0, 5], [1]],
 	"resume": [[0, 6], [1]],
 	"vault": [[0, 7], [1]]

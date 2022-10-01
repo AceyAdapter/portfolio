@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component, a as add_attribute } from "../../chunks/index-c5e2452c.js";
-import { H as Header } from "../../chunks/header-a4f1db59.js";
+import { H as Header } from "../../chunks/header-a4c3a4ac.js";
 var blackjack_1 = "/_app/assets/blackjack_1-0943b4a5.png";
 var blackjack_2 = "/_app/assets/blackjack_2-ceffb53e.png";
 var fridge_1 = "/_app/assets/fridge_1-f248dd56.png";
@@ -7,7 +7,7 @@ var fridge_2 = "/_app/assets/fridge_2-c73fe718.png";
 var crazy_crypto = "/_app/assets/crazy-crypto-d0eaac53.png";
 var egoh_site = "/_app/assets/egoh-site-e667f64f.png";
 var nmi_logo = "/_app/assets/nmi-logo-4001a5fd.jpeg";
-const Nmi = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+const Nmc = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Header, "Header").$$render($$result, { initTransparent: true }, {}, {})}
 <div class="${"flex flex-col justify-center w-full"}"><div class="${"hero min-h-screen"}"><div class="${"hero-content lg:flex-row-reverse flex-col-reverse"}"><div class="${"flex-col"}"><div class="${"mockup-phone border-primary w-76 z-40"}"><div class="${"display"}"><div class="${"artboard artboard-demo phone-1 z-30"}"><div class="${"carousel z-20"}"><div id="${"rich1"}" class="${"carousel-item w-full z-20"}"><img${add_attribute("src", blackjack_1, 0)} alt="${"blackjack 1"}" class="${"mr-8 rounded"}"></div>
                 <div id="${"rich2"}" class="${"carousel-item w-full z-20"}"><img${add_attribute("src", blackjack_2, 0)} alt="${"blackjack 2"}" class="${"mr-8 rounded"}"></div>
@@ -111,4 +111,4 @@ const Nmi = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           question and be able to answer it next time.
         </p></div></div></div></div>`;
 });
-export { Nmi as default };
+export { Nmc as default };

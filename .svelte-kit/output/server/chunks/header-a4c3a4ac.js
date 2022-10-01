@@ -26,7 +26,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       </div></a>
     <div class="${"hidden lg:block text-primary font-poppins font-medium text-xl mx-2"}">|
     </div>
-    <a href="${"/nmi"}"><div class="${"hover:underline hidden lg:block text-primary font-poppins font-medium text-xl"}">NMI Portfolio
+    <a href="${"/nmc"}"><div class="${"hover:underline hidden lg:block text-primary font-poppins font-medium text-xl"}">NMI Portfolio
       </div></a></div>
   <div class="${"flex flex-row"}"><a href="${"https://www.linkedin.com/in/nicholas-kreitz-3a13531a0/"}" target="${"_blank"}">${validate_component(Instagram, "Instagram").$$render($$result, { style: "w-5 h-5 fill-base-100" }, {}, {})}</a>
     <a href="${"mailto:nicholaskreitz@gmail.com"}">${validate_component(Mail, "Mail").$$render($$result, { style: "w-5 h-5 fill-base-100" }, {}, {})}</a></div></div>

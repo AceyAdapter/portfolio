@@ -19,7 +19,7 @@
       class="hidden lg:block text-primary font-poppins font-medium text-xl mx-2">
       |
     </div>
-    <a href="/nmi">
+    <a href="/nmc">
       <div
         class="hover:underline hidden lg:block text-primary font-poppins
         font-medium text-xl">

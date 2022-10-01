@@ -1,5 +1,5 @@
 import { c as create_ssr_component, a as add_attribute, v as validate_component } from "../../chunks/index-c5e2452c.js";
-import { H as Header } from "../../chunks/header-a4f1db59.js";
+import { H as Header } from "../../chunks/header-a4c3a4ac.js";
 import { S as Section } from "../../chunks/section-07467b4e.js";
 var nick_cutout = "/_app/assets/nick-cutout-04787eeb.png";
 var stats_card = "/_app/assets/stats-card-dce19c10.png";
@@ -50,7 +50,7 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     default: () => {
       return `<div class="${"flex flex-col"}"><div class="${"flex flex-row justify-between"}"><div class="${"z-20 flex flex-col justify-start w-full lg:pl-20 lg:pt-72 pt-5 pl-5"}"><div class="${"lg:w-1/3 w-2/3 text-primary lg:text-base-100 text-4xl lg:text-6xl font-poppins font-bold"}">student, programmer, advocate for innovation
           </div>
-          <a href="${"/nmi"}" class="${"border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40 lg:w-48 bg-base-100 text-primary font-bold font-poppins flex justify-center items-center hover:bg-base-200"}">View My Work
+          <a href="${"/nmc"}" class="${"border-2 border-primary mt-5 rounded-2xl text-lg h-10 w-40 lg:w-48 bg-base-100 text-primary font-bold font-poppins flex justify-center items-center hover:bg-base-200"}">View My Work
           </a></div>
         <div class="${"z-10 relative"}"><div class="${"z-10 absolute right-0 top-0 lg:flex lg:flex-col lg:justify-center"}">${validate_component(White_triangle, "WhiteTriangle").$$render($$result, { style: "w-[1000px] fill-primary" }, {}, {})}
             <div class="${"z-20 hidden lg:block ml-[325px] mt-[-450px]"}"><img${add_attribute("src", stats_card, 0)} class="${"w-[350px]"}" alt="${""}"></div></div></div></div>

@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bad923db.js",
+    "file": "start-0a646a97.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,7 +12,7 @@
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/contact.svelte",
       "src/routes/index.svelte",
-      "src/routes/nmi.svelte",
+      "src/routes/nmc.svelte",
       "src/routes/projects.svelte",
       "src/routes/resume.svelte",
       "src/routes/vault.svelte"
@@ -40,13 +40,13 @@
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-28e2e08a.js",
+    "file": "pages/contact.svelte-56494f8b.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-17725406.js",
-      "_header-33664696.js",
+      "_header-17b47c12.js",
       "_section-26bdcc78.js"
     ],
     "css": [
@@ -57,13 +57,13 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-4a7763fd.js",
+    "file": "pages/index.svelte-b9434dbb.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-17725406.js",
-      "_header-33664696.js",
+      "_header-17b47c12.js",
       "_section-26bdcc78.js"
     ],
     "css": [
@@ -74,14 +74,14 @@
       "assets/stats-card-dce19c10.png"
     ]
   },
-  "src/routes/nmi.svelte": {
-    "file": "pages/nmi.svelte-2c60bb70.js",
-    "src": "src/routes/nmi.svelte",
+  "src/routes/nmc.svelte": {
+    "file": "pages/nmc.svelte-2e23cbf7.js",
+    "src": "src/routes/nmc.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-17725406.js",
-      "_header-33664696.js"
+      "_header-17b47c12.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -136,8 +136,8 @@
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_header-33664696.js": {
-    "file": "chunks/header-33664696.js",
+  "_header-17b47c12.js": {
+    "file": "chunks/header-17b47c12.js",
     "imports": [
       "_index-17725406.js"
     ],

@@ -35,7 +35,7 @@
     "isEntry": true,
     "imports": [
       "_index-c5e2452c.js",
-      "_header-a4f1db59.js",
+      "_header-a4c3a4ac.js",
       "_section-07467b4e.js"
     ],
     "css": [
@@ -51,7 +51,7 @@
     "isEntry": true,
     "imports": [
       "_index-c5e2452c.js",
-      "_header-a4f1db59.js",
+      "_header-a4c3a4ac.js",
       "_section-07467b4e.js"
     ],
     "css": [
@@ -62,13 +62,13 @@
       "assets/stats-card-dce19c10.png"
     ]
   },
-  "src/routes/nmi.svelte": {
-    "file": "entries/pages/nmi.svelte.js",
-    "src": "src/routes/nmi.svelte",
+  "src/routes/nmc.svelte": {
+    "file": "entries/pages/nmc.svelte.js",
+    "src": "src/routes/nmc.svelte",
     "isEntry": true,
     "imports": [
       "_index-c5e2452c.js",
-      "_header-a4f1db59.js"
+      "_header-a4c3a4ac.js"
     ],
     "assets": [
       "assets/blackjack_1-0943b4a5.png",
@@ -113,8 +113,8 @@
   "_index-c5e2452c.js": {
     "file": "chunks/index-c5e2452c.js"
   },
-  "_header-a4f1db59.js": {
-    "file": "chunks/header-a4f1db59.js",
+  "_header-a4c3a4ac.js": {
+    "file": "chunks/header-a4c3a4ac.js",
     "imports": [
       "_index-c5e2452c.js"
     ],
