@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set([".nojekyll","CNAME","Nicholas_Kreitz_resume.pdf","favicon.png","img/blackjack_1.png","img/blackjack_2.png","img/closeup.png","img/crazy-crypto.png","img/daisyui.jpeg","img/egoh-site.png","img/fridge_1.png","img/fridge_2.png","img/nick-color.jpeg","img/nick-cutout.png","img/nmi-logo.jpeg","img/stats-card.png","img/sveltekit.png","img/vault.png"]),
 	mimeTypes: {".pdf":"application/pdf",".png":"image/png",".jpeg":"image/jpeg"},
 	_: {
-		entry: {"file":"start-b404bb71.js","js":["start-b404bb71.js","chunks/index-17725406.js","chunks/preload-helper-e4860ae8.js"],"css":[]},
+		entry: {"file":"start-bad923db.js","js":["start-bad923db.js","chunks/index-17725406.js","chunks/preload-helper-e4860ae8.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
